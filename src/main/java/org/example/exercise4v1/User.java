@@ -5,6 +5,10 @@ public class User {
     private String password;
     private String fullName;
     private int age;
+    /*
+        todo double vs BigDecimal. double-da dəqiqlik yoxdur
+        https://stackoverflow.com/questions/3413448/double-vs-bigdecimal
+     */
     private double balance;
 
 

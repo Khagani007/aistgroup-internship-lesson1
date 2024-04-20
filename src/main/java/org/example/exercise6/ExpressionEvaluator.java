@@ -1,5 +1,9 @@
 package org.example.exercise6;
 
+/*
+    TODO double istifadə edildiyinə görə 0.03-0.01=0.009999999999999998
+    https://stackoverflow.com/questions/3413448/double-vs-bigdecimal
+ */
 public class ExpressionEvaluator {
     public double evaluateExpression(String expression) {
         OperandStack operands = new OperandStack();
